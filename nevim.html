@@ -1,26 +1,127 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="./styl.css" />
+<html lang="cs">
+  <head>
     <meta charset="UTF-8" />
-    <title>portfolio</title>
-    <link rel="icon" type="image" href="tulen1.jpg">
-</head>
-<body>
-    <div class="star-wrap" aria-hidden="true">
-        <div class="star"></div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendula Procházková | Portfolio</title>
+    <link rel="stylesheet" href="./styl.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">Vendula Procházková</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">O mně</a>
+          <a href="#work">Práce</a>
+          <a href="#cv">CV</a>
+        </nav>
+      </header>
+
+      <main class="container">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Studentka Informačních technologií a ekonomiky</p>
+            <h1>Chcete se o mně dozvědět více?</h1>
+            <p class="lead">
+              Jmenuji se Vendula Procházková, jsem studentka třetího ročníku na střední škole INFIS, ráda tvořím designy, nejradši se zabývám zbytečnými projekty, a ůplně nejradši mám tuleně. 
+              Jsem Kvalifikoanný trenér volejballu a zabývam se ruznými oblastmi světa. 
+            </p>
+          </div>
+
+          <div class="photo-card">
+            <div class="photo-placeholder">Your photo here</div>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div class="section-heading">
+            <p class="eyebrow">O mně</p>
+            <h2>Osobní přístup a cílevědomost</h2>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-card">
+              <h3>Věk</h3>
+              <p>17 let</p>
+            </div>
+            <div class="info-card">
+              <h3>Vzdělání</h3>
+              <p>Studentka 3. ročníku na INFIS</p>
+            </div>
+            <div class="info-card">
+              <h3>Osobnost</h3>
+              <p>Kreativní, komunikativní a zodpovědná</p>
+            </div>
+            <div class="info-card">
+              <h3>Interesy</h3>
+              <p>Design, kreativní projekty, mezilidské vztahy a vizuální storytelling</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="portfolio">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Vybrané projekty</h2>
+          </div>
+
+          <div class="portfolio-grid">
+            <article class="project-card">
+              <div class="project-image placeholder">Project photo</div>
+              <div class="project-copy">
+                <h3>Spolupráce na projektu</h3>
+                <p>Práce s vizuální komunikací, týmovým plánováním a prezentací nápadů.</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image placeholder">Project photo</div>
+              <div class="project-copy">
+                <h3>Branding a web design</h3>
+                <p>Vytváření moderních vizuálů a konzistentního stylu pro online prezentaci.</p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image placeholder">Project photo</div>
+              <div class="project-copy">
+                <h3>Prezentace a kampaně</h3>
+                <p>Propagace myšlenek a vytvoření publiku, které dokáže projekt pochopit hned.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="cv" class="cv-section">
+          <div class="section-heading">
+            <p class="eyebrow">Životopis</p>
+            <h2>Co umím a co mě pohání</h2>
+          </div>
+
+          <div class="cv-grid">
+            <div class="cv-card">
+              <h3>Vzdělání</h3>
+              <ul>
+                <li>STŘEDNÍ ŠKOLA INFIS</li>
+                <li>Studium v oblasti digitálních a kreativních technologií</li>
+              </ul>
+            </div>
+            <div class="cv-card">
+              <h3>Dovednosti</h3>
+              <ul>
+                <li>Kreativní myšlení</li>
+                <li>Komunikace a prezentace</li>
+                <li>Práce s vizuály a designem</li>
+                <li>Organizace a samostatnost</li>
+              </ul>
+            </div>
+          </div>
+
+          <a class="download-btn" href="./cv.pdf" target="_blank" rel="noopener noreferrer">Stáhnout CV</a>
+        </section>
+      </main>
     </div>
 
-    <h1>kdo jsem?</h1>
-   
-    <ul>
-        <li>Jmenuji se Vendula Procházková</li>
-        <li>Je mi 17 let</li>
-        <li>Jsem studentka 3. ročníku na střední škole INFIS</li>
-        <li>Jsem kreativní a komunikativní</li>
-        <li>Nemám ráda tuhle čurdogoonprdbeďar školu</li>
-        <li>Pustě mne domů </li>
-    </ul>
-     <img src="./tulen.jpg" alt="tulen" />
-</body>
+    <script src="./java.js"></script>
+  </body>
 </html>

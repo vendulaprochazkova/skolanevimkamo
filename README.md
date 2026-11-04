@@ -1,2 +1,2 @@
 # skolanevimkamo
-uh tema moje portfolio jo
+Portfolio o mém životě
